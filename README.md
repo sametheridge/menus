@@ -1,4 +1,3 @@
-plump_menus
+Custom menus module for Silverstripe
 ===========
 
-Silverstripe custom menus module
