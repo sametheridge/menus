@@ -24,10 +24,14 @@ class MenuItem extends DataObject {
 	
 	public function getCMSFields() {
 		
-		return new FieldList( 
+		$fields = new FieldList( 
 			new TextField('MenuTitleOverride', 'Title override'),
 			new TreeDropdownField('PageID', 'Page', 'Page')
 		);
+		
+		$this->extend('updateCMSFields', $fields);
+		
+		return $fields;
 		
 	}
 	
