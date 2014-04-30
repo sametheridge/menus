@@ -15,7 +15,7 @@ class MenuItem extends DataObject {
 	public static $default_sort = 'SortOrder';
 	
 	public function getMenuTitle() {
-		return $this->MenuTitleOverride ? $this->MenuTitleOverride : $this->Page()->Title;
+		return $this->MenuTitleOverride ? $this->MenuTitleOverride : $this->Page()->MenuTitle;
 	}
 	
 	public function getLink() {
