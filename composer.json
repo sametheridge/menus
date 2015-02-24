@@ -1,11 +1,20 @@
 {
-    "name": "plumpss/menus",
-    "description": "Custom menus module for SilverStripe.",
-    "authors": [
-        {
-            "name": "James Howard",
-            "email": "james@plumpdigital.co.uk"
-        }
-    ],
-    "require": {}
+	"name": "plumpss/menus",
+	"description": "Custom menus module for SilverStripe.",
+	"type": "silverstripe-module",
+	"license": "MIT",
+	"keywords": ["silverstripe", "menus"],
+	"authors": [
+		{
+			"name": "James Howard",
+			"email": "james@plumpdigital.co.uk"
+		}
+	],
+	"require" : {
+		"silverstripe/cms": "~3.1",
+		"silverstripe/framework": "~3.1"
+	},
+	"extra" : {
+		"installer-name": "plumpss-menus"
+	}
 }
