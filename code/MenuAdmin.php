@@ -6,6 +6,6 @@ class MenuAdmin extends ModelAdmin {
     private static $menu_title = 'Menus';
     private static $managed_models = array('Menu');
 	
-	private $showImportForm = false;
+	public $showImportForm = false;
 	
 }
