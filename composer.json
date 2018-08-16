@@ -11,8 +11,8 @@
 		}
 	],
 	"require" : {
-		"silverstripe/cms": "~3.1",
-		"silverstripe/framework": "~3.1",
+		"silverstripe/cms": "~4.1",
+		"silverstripe/framework": "~4.1",
 		"undefinedoffset/sortablegridfield": "dev-master"
 	},
 	"extra" : {
